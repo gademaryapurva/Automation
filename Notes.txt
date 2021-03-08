@@ -1,0 +1,42 @@
+create a folder- GitSample
+create a text file = apurva.txt
+command prompt cd path
+commands:
+git init = create local repo
+check folder make hidden folders
+
+Staging = tell ur locale repo to commit
+git add * = it will push ur code to staging area and tell the code is ready to commit
+
+Commit = files in staging area will pushed to local repo 
+git commit -m "This is my first commit"
+
+Push = it will push the code from locale to cloud 
+git push origin master
+
+git add *
+git status
+git commit -m "adding file apurva.txt"
+
+give credintials there = git config --global --edit
+			 git config --global user.name "Your Name"
+    			 git config --global user.email you@example.com
+
+git remote add origin https://github.com/gademaryapurva/Automation.git
+
+git push origin master ( main branch is called master)
+
+create sample.txt
+
+git branch
+git add path of the file
+git commit -m "adding sample.txt"
+git push origin master
+
+edit apurva.txt
+
+git add *
+git commit -m "updated"
+git push origin master
+
+branching and cloning 
