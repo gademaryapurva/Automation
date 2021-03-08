@@ -24,7 +24,8 @@ give credintials there = git config --global --edit
 
 git remote add origin https://github.com/gademaryapurva/Automation.git
 
-git push origin master ( main branch is called master)
+git push origin master 
+( main branch is called master)
 
 create sample.txt
 
