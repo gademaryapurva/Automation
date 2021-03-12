@@ -1,6 +1,7 @@
 create a folder- GitSample
 create a text file = apurva.txt
 command prompt cd path
+cd /d D:\
 commands:
 git init = create local repo
 check folder make hidden folders
@@ -41,4 +42,71 @@ git add *
 git commit -m "updated"
 git push origin master
 
-branching and cloning 
+branching and cloning = u will take code from git to local repo that is cloning
+copy repo path: git clone https://github.com/sample.git
+
+create new folder for another person:
+next time to get the update from the git then(changes may done by original person)
+git add * from original person 
+git commit -m "updated the file"
+git push origin master
+
+now the new person wants to take the update:
+got to new person folder path
+git pull origin master 
+
+Branch: copy of your code, copy of master
+create a copy of master branch and give it a name called development branch.
+after updating or developing the branch development they merge both branch and master.
+master is the production code.
+
+create 3rd folder Development or create in gitsample
+
+
+git checkout -b development
+checking out the code and creating a branch and give it a name.
+which branch u r pointing to 
+git branch
+git checkout master
+git branch
+git checkout development
+git add *
+git commit -m "commit in dev branch"
+git push origin development
+
+if it is new 3rd folder: git clone link of samplefolder
+cd samplevivek
+git checkout -b feature
+to see which branch u r pointing git branch
+
+git add *
+git commit -m "feature branch update"
+git push origin feature
+
+
+git clone link
+cd sample
+git branch
+it will point to master no branches get downloaded.
+
+Merge:
+git branch
+feature and master
+edit one file in 3rd folder
+git add *
+git commit -m "changed the sample.txt"
+git push origin feature
+
+switch to the master to merge
+git checkout master
+git merge feature
+git add *
+git comit -m "merged changes"
+git push origin master
+
+go to github and refresh
+
+basic git commands confluence.atlassian.com
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html#:~:text=%20%20%20%20Git%20task%20%20,clone%20username@host:/path/to/reposit%20...%20%2021%20more%20rows
+
+how to import git to eclipse videos
